@@ -2,6 +2,7 @@ body {
   font-family: OpenSans, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
+  margin-bottom: 200px;
 }
 
 .logo {
@@ -34,7 +35,7 @@ h1 {
 }
 
 .splash {
-  background-color: #ddd;
+  background-color: #f6f6f6;
   height: 50vh;
   position: relative;
 }
