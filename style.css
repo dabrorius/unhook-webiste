@@ -1,0 +1,87 @@
+body {
+  font-family: OpenSans, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  height: 90%;
+  margin-top: 12px;
+}
+
+.header {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  height: 5vh;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 5vh;
+  color: #222;
+}
+
+.explanation {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  color: #333;
+}
+
+.splash {
+  background-color: #ddd;
+  height: 50vh;
+  position: relative;
+}
+
+.splash-bottom {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.splash img {
+  height: 35vh;
+}
+
+.image {
+  text-align: center;
+}
+
+.image img {
+  max-width: 750px;
+}
+
+.benefits {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  list-style-type: none;
+}
+
+.benefits li {
+  width: 33%;
+  float: left;
+  text-align: center;
+  padding: 0 25px;
+  box-sizing: border-box;
+}
+
+.benefits .fa {
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+
+.section {
+  margin-top: 60px;
+  clear: both;
+  overflow: auto;
+}
