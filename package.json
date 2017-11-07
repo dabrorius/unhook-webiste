@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/dabrorius/unhook-webiste#readme",
   "dependencies": {
-    "http-server": "^0.10.0"
+    "heroku-ssl-redirect": "0.0.4",
+    "http-server": "^0.10.0",
+    "path": "^0.12.7"
   }
 }
