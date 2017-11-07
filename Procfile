@@ -1,1 +1,1 @@
-web: node node_modules/.bin/http-server dist/ -S -p $PORT
+web: node node_modules/.bin/http-server dist/ -p $PORT
