@@ -1,21 +1,22 @@
 <html>
   <head>
-    <title>Unhook</title>
+    <title>Unhook Chrome Extension | Stop wasting your time</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://use.fontawesome.com/174bec5384.js"></script>    
+    <script src="https://use.fontawesome.com/174bec5384.js"></script>
+    <script src="https://gumroad.com/js/gumroad.js"></script>    
   </head>
   <body>
     <div class='header'>
       <img class='logo' src='images/logo.svg'>      
     </div>
     <div class='splash'>
-      <h1>Get your social media addiction under control</h1>
+      <h1>Unhook yourself from time-wasting websites</h1>
       <div class='splash-bottom'>  
         <img src='images/meditate.svg'>
       </div>
     </div>
     <p class='explanation'>
-      Unhook is a <b>Google Chrome Web Browser extension</b> that helps you break the habit of constant checking of social media websites.
+      Unhook is a <b>Google Chrome Web Browser extension</b> that helps you break the habit of constant checking of time-wasting websites.
     </p>
     <p class='explanation'>
       When you try to access any website on Unhook <b>blocklist</b> you will be presented with a simple choice: <b>close the window</b> and continue
@@ -25,12 +26,18 @@
       <img src='images/screenshot-framed.svg'>
     </p>
     <p class='explanation'>
-        By delaying gratification, and giving you time to process what you are doing you will consciously start breaking the time-wasting habits. This is a sustainable solution because you can still access the blocked websites when needed.
+        By <b>delaying gratification</b>, and giving you time to process what you are doing you will consciously start breaking the time-wasting habits.
+        Unlike complete blocking of websites, this is a sustainable solution because you can still access the blocked websites when you really need them.
     </p>
     <p class='explanation'>
       If you decide to access a website you will get a reminder every 5 minutes that you should probably be doing something else.
       You will again have to wait 15 seconds every time you want to override the reminder.
     </p>
+
+    <div class='buy-button'>
+      <a class="gumroad-button" href="https://gum.co/plNrn" target="_blank" data-gumroad-single-product="true">Install Unhook</a>
+      <div class='warning hide'>Please notice that Unhook is compatable only with Google Chrome web browser!</div>              
+    </div>
 
     <div class='section'>
       <h1>You make the rules!</h1>
@@ -41,7 +48,7 @@
         </li>
         <li>
           <i class="fa fa-clock-o" aria-hidden="true"></i><br>      
-          You can choose acceess delay time and override duration
+          You can choose access delay time and override duration
         </li>
         <li>
           <i class="fa fa-calendar-check-o" aria-hidden="true"></i><br>
@@ -50,12 +57,28 @@
       </ul>
     </div>
 
-    <div class='section'>          
+    <p class='explanation'>
+      List of websites that you want to block, as well as all delay times, is configurable.
+      You can also make Unhook active only during a certain time period, for example, during your working hours so that it's easier for you to focus on work.
+    </p>
+
+    <div class='section buy'>          
       <h1>Are you ready to live a more balanced life?</h1>
-      <script src="https://gumroad.com/js/gumroad-embed.js"></script>
-      <div class="gumroad-product-embed" data-gumroad-product-id="plNrn"><a href="https://gumroad.com/l/plNrn">Loading...</a></div>
+      <a class="gumroad-button" href="https://gum.co/plNrn" target="_blank" data-gumroad-single-product="true">Install Unhook</a>
+      <div class='warning hide'>Please notice that Unhook is compatable only with Google Chrome web browser!</div>      
+    </div>
+
+    <div class='footer'>
+      Unhook Chrome Extension is developed and maintained by Filip Defar, Naserov Trg 4, 10000 Zagreb, Croatia | <a href='mailto:filip.defar@gmail.com'>Contact me</a>
     </div>
     
-
+  <script>
+    if (!window.chrome) {
+      let warnings = document.getElementsByClassName("warning")
+      Array.prototype.forEach.call(warnings, function(el) {
+        el.classList.remove('hide')
+      });
+    }
+  </script>
   </body>
 </html>
